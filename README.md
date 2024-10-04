@@ -1,6 +1,7 @@
 # Spotify_SQL
 In this respository, i do SQL window function to solve problem. It'll give insight for the reader about what is in spotify.
 
+```
 CREATE DATABASE spotify;
 -- create table
 USE spotify;
@@ -152,6 +153,7 @@ SELECT artist, track, SUM(likes), views
 FROM spotify
 GROUP BY 1,2,4
 ORDER BY 4 DESC;
+```
 
 
 
